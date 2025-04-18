@@ -5,12 +5,12 @@
     <item
         android:title="@string/favorite"
         android:id="@+id/mFavorite"
-        android:icon="@drawable/favorite_insta"
+        android:icon="@drawable/baseline_heart"
         app:showAsAction="always" />
 
     <item android:title="@string/messenger"
         android:id="@+id/mMessenger"
-        android:icon="@drawable/messenger_icon"
+        android:icon="@drawable/baseline_chat_bubble"
         app:showAsAction="always"
 
         />

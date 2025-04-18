@@ -9,14 +9,19 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/idAppBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/idAppBar">
+            android:layout_height="wrap_content">
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:menu="@menu/menu_top_insta"
                 app:title="InstaKim"
+                app:titleTextAppearance="@font/cookie_regular">
+
+
+            </com.google.android.material.appbar.MaterialToolbar>
 
 
         </com.google.android.material.appbar.AppBarLayout>
@@ -29,6 +34,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/menu_bottomnav_insta"/>
+        app:menu="@menu/menu_bottomnav_insta" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

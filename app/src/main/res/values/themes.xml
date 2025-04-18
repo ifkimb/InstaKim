@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.InstaKim" parent="Base.Theme.InstaKim" />
+
+    <style name="toolbar_text">
+        <item name="android:fontFamily">@font/cookie_regular</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
 </resources>
